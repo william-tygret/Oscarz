@@ -38,7 +38,7 @@ public class ActorListCustomAdapter extends ArrayAdapter<Actor> {
             textViewDOB.setText(theSelectedActor.getDOB());
 
             TextView textViewNoWon = (TextView)custom_list_item_view.findViewById(R.id.textViewOscarsWon);
-            textViewDOB.setText(theSelectedActor.getNoOfOscarsWon());
+            textViewNoWon.setText(theSelectedActor.getNoOfOscarsWon());
 
 
 
